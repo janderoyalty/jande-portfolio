@@ -4,14 +4,20 @@
 
 }
 
-#nav-words, #nav-resume, #nav-contacts {
-    color: #f9f9f9;
-    font-weight: bolder;
-    text-transform: uppercase;
-    font-size: larger;
+#navi-bar--scroll{
+    padding: 1% 5%;
+    background-color: rgba(255, 243, 71, 1);
 
 }
 
-#nav-words:hover, #nav-resume:hover, #nav-contacts:hover{
+#nav-words, #nav-resume, #nav-contacts, #nav-races {
     color: #6D213C;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: larger;
+    
+}
+
+#nav-words:hover, #nav-resume:hover, #nav-contacts:hover{
+    color: #f9f9f9;
 }

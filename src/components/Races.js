@@ -25,7 +25,7 @@ const Races = () => {
   }, []);
 
   return (
-    <Carousel className="content" id="races">
+    <Carousel className="content" id="my-works">
       {moratiaRaces.map((moratiaRace, index) => {
         return (
           <Carousel.Item key={index}>

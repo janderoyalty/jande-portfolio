@@ -12,7 +12,7 @@ const Landing = () => {
     <Row className="content" id="landing">
       <Col id="landing--left" sm={12} md={12} lg={6}>
         <Row id="landing--left--top">
-          <h1 id="landing--left--top--name">Hi! My name is Jande.</h1>
+          <h1 id="landing--left--top--name">Hi! My name is Jande Royalty.</h1>
           <div id="landing--left--top--pronounciation">
             <div>It sounds like “Andy” with a “J”,</div>
             <div>but it’s not spelled that way.</div>

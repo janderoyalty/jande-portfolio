@@ -27,19 +27,7 @@ function App() {
       <div id="app-content">
         <Navigation></Navigation>
         <Landing></Landing>
-        {/* <LogoPage></LogoPage>
-        <Updates></Updates>
-        <Kickstarter></Kickstarter>
-  <World></World> */}
         <Races></Races>
-        {/*<Classes></Classes>
-        <Products></Products>
-        <Testimonials></Testimonials> */}
-        {/* <Footer
-        // showModal={showModal}
-        // handleCloseModal={handleCloseModal}
-        // handleShowModal={handleShowModal}
-        ></Footer> */}
       </div>
     </div>
   );
