@@ -22,7 +22,7 @@ const Navigation = () => {
             <img
               src={logo} // Logo overlay color #6d213c
               alt="Jande Royalty logo"
-              height="25em"
+              height="35em"
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
