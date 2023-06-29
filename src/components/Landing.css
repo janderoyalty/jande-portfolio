@@ -1,0 +1,57 @@
+#landing {
+    /* background-color: rgba(31, 31, 31, .1); */
+    display: flex;
+    /* height: 500px;
+    width: 500px; */
+    /* padding: 20px; */
+}
+
+#landing--left {
+    /* background-color: red; */
+    /* width: 50% */
+    
+    /* height: 400px;
+    width: 200px; */
+    padding: 5%;
+}
+
+#landing--left--top {
+    /* background-color: yellow; */
+    /* height: 50%; */
+    width: 100%;
+}
+
+#landing--left--top--name {
+    color: #6D213C;
+    font-size: 4.75vmax;
+    font-weight:bolder;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#landing--left--top--pronounciation {
+    color: #6D213C;
+    font-size: 2.5vmax;
+    font-weight:bolder;
+    text-align: left;
+}
+
+#landing--left--bottom {
+    color: #6D213C;
+    font-size: 3.25vmax;
+    font-weight:bolder;
+    text-transform: uppercase;
+    padding: 50px 0 0 20px;
+    text-align: left;
+}
+
+
+#landing--right {
+    /* width: 50%; */
+    padding: 5% 5% 5% 0 ;
+    /* background-color: pink; */
+}
+
+#jande-image {
+    width: 100%;
+}

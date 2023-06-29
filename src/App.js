@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import "./App.css";
-import NaviBar from "./components/NaviBar";
+import Navigation from "./components/Navigation";
 import LogoPage from "./components/LogoPage";
 import Updates from "./components/Updates";
 
 // import Events from "./components/Events";
-import Gallery from "./components/Gallery";
 import World from "./components/World";
 import Races from "./components/Races";
 import Classes from "./components/Classes";
@@ -14,6 +13,7 @@ import Products from "./components/Products";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Landing from "./components/Landing";
 
 function App() {
   // const [showModal, setShowModal] = useState(false);
@@ -23,21 +23,24 @@ function App() {
 
   return (
     <div className="App">
-      <NaviBar></NaviBar>
-      <LogoPage></LogoPage>
-      <Updates></Updates>
-      <Kickstarter></Kickstarter>
-      <Gallery></Gallery>
-      <World></World>
-      <Races></Races>
-      <Classes></Classes>
-      <Products></Products>
-      <Testimonials></Testimonials>
-      <Footer
-      // showModal={showModal}
-      // handleCloseModal={handleCloseModal}
-      // handleShowModal={handleShowModal}
-      ></Footer>
+      <div id="bg"></div>
+      <div id="app-content">
+        <Navigation></Navigation>
+        <Landing></Landing>
+        {/* <LogoPage></LogoPage>
+        <Updates></Updates>
+        <Kickstarter></Kickstarter>
+  <World></World> */}
+        <Races></Races>
+        {/*<Classes></Classes>
+        <Products></Products>
+        <Testimonials></Testimonials> */}
+        {/* <Footer
+        // showModal={showModal}
+        // handleCloseModal={handleCloseModal}
+        // handleShowModal={handleShowModal}
+        ></Footer> */}
+      </div>
     </div>
   );
 }

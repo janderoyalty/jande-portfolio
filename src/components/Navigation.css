@@ -1,0 +1,17 @@
+#navi-bar{
+    padding: 1% 5%;
+    background-color: rgba(31, 31, 31, 0.1);
+
+}
+
+#nav-words, #nav-resume, #nav-contacts {
+    color: #f9f9f9;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: larger;
+
+}
+
+#nav-words:hover, #nav-resume:hover, #nav-contacts:hover{
+    color: #6D213C;
+}
