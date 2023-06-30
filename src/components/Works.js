@@ -17,7 +17,7 @@ const Works = () => {
       {/* ITEM 1 */}
       <Carousel.Item>
         <Row>
-          <Col id="my-works-left" sm={12} md={12} lg={4}>
+          <Col id="my-works-left" sm={12} md={12} lg={5}>
             <a
               href="https://moratiagames.com/"
               target="_blank"
@@ -31,7 +31,7 @@ const Works = () => {
               ></Image>
             </a>
           </Col>
-          <Col id="my-works-right" sm={12} md={12} lg={8}>
+          <Col id="my-works-right" sm={12} md={12} lg={7}>
             <a
               href="https://moratiagames.com/"
               target="_blank"
@@ -79,7 +79,11 @@ const Works = () => {
             </Row>
             <Row className="technologies-header-text">
               Technologies
-              <a href="https://github.com/janderoyalty/moratia-games-fe">
+              <a
+                href="https://github.com/janderoyalty/moratia-games-fe"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <AiFillGithub size="50px" color="#6D213C" />
               </a>
             </Row>
@@ -93,10 +97,11 @@ const Works = () => {
           </Col>
         </Row>
       </Carousel.Item>
+
       {/* ITEM 2 */}
       <Carousel.Item>
         <Row>
-          <Col id="my-works-left" sm={12} md={12} lg={4}>
+          <Col id="my-works-left" sm={12} md={12} lg={5}>
             <a
               href="https://jande-weather-report.onrender.com/"
               target="_blank"
@@ -110,7 +115,7 @@ const Works = () => {
               ></Image>
             </a>
           </Col>
-          <Col id="my-works-right" sm={12} md={12} lg={8}>
+          <Col id="my-works-right" sm={12} md={12} lg={7}>
             <a
               href="https://jande-weather-report.onrender.com/"
               target="_blank"
@@ -158,16 +163,39 @@ const Works = () => {
             </Row>
             <Row className="technologies-header-text">
               Technologies
-              <a href="https://github.com/janderoyalty/weather-report">
-                <AiFillGithub size="50px" color="#6D213C" />
+              <a
+                href="https://github.com/janderoyalty/weather-report"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub
+                  size="50px"
+                  color="#6D213C"
+                  title="Weather Report Frontend"
+                />
               </a>
             </Row>
             <Row className="technologies-container">
-              <Col className="technologies-text">React</Col>
-              <Col className="technologies-text">React Bootstrap</Col>
-              <Col className="technologies-text">Firebase</Col>
               <Col className="technologies-text">JavaScript</Col>
+              <Col className="technologies-text">HTML</Col>
               <Col className="technologies-text">CSS</Col>
+            </Row>
+            <Row className="technologies-header-text">
+              <a
+                href="https://github.com/janderoyalty/weather-report-proxy-server"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub
+                  size="50px"
+                  color="#6D213C"
+                  title="Weather Report Backend"
+                />
+              </a>
+            </Row>
+            <Row className="technologies-container">
+              <Col className="technologies-text">Python</Col>
+              <Col className="technologies-text">Flask</Col>
             </Row>
           </Col>
         </Row>
