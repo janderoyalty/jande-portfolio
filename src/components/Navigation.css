@@ -19,5 +19,9 @@
 }
 
 #nav-words:hover, #nav-resume:hover, #nav-contacts:hover{
-    color: #f9f9f9;
+    color: #E90389;
+}
+
+#nav-words:active, #nav-resume:active, #nav-contacts:active{
+    color: #E90389;
 }
