@@ -36,7 +36,7 @@ const Works = () => {
               href="https://moratiagames.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="header-text-link"
+              className="links"
             >
               <Row className="header-text">Moratia Games</Row>
             </a>
@@ -44,7 +44,7 @@ const Works = () => {
               href="https://moratiagames.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="header-text-link"
+              className="links"
             >
               <Row className="sub-header-text">website</Row>
             </a>
@@ -120,7 +120,7 @@ const Works = () => {
               href="https://jande-weather-report.onrender.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="header-text-link"
+              className="links"
             >
               <Row className="header-text">Weather Report</Row>
             </a>
@@ -128,7 +128,7 @@ const Works = () => {
               href="https://jande-weather-report.onrender.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="header-text-link"
+              className="links"
             >
               <Row className="sub-header-text">website app</Row>
             </a>
