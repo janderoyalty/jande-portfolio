@@ -1,0 +1,19 @@
+#social-icons-container {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.contact-info {
+    font-weight:bold; 
+    font-family: Poppins;
+    font-size:15px;
+}
+
+a{
+    text-decoration: none;
+    color: darkturquoise;
+}
+
+#my-contact {
+    background-color: rgba(31, 31, 31, 0.1);
+}

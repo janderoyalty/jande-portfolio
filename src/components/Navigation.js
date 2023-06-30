@@ -45,10 +45,15 @@ const Navigation = () => {
               <Nav.Link id="nav-words" href="#my-works">
                 My Works
               </Nav.Link>
-              <Nav.Link id="nav-resume" href="#resume">
+              <Nav.Link
+                id="nav-resume"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:d1337289-41b8-3e1d-bbd1-73099b75064b"
+              >
                 My Resume
               </Nav.Link>
-              <Nav.Link id="nav-contacts" href="#contact">
+              <Nav.Link id="nav-contacts" href="#my-contact">
                 My Contact
               </Nav.Link>
             </Nav>
