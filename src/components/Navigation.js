@@ -32,7 +32,7 @@ const Navigation = () => {
         role="navigation"
       >
         <Container fluid>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#landing">
             <img
               src={logo} // Logo overlay color #6d213c
               alt="Jande Royalty logo"

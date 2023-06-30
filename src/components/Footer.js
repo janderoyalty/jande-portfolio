@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Footer.css";
-import Login from "./Login";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -60,7 +59,6 @@ const Footer = () => {
                 </Modal.Title>
               </Modal.Header>
               <Modal.Body>
-                <Login handleCloseModal={handleCloseModal}></Login>
               </Modal.Body>
               <Modal.Footer>
                 {/* <Button variant="secondary" onClick={props.handleCloseModal}> */}

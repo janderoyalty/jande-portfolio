@@ -1,0 +1,130 @@
+#my-works{
+    display: flex;
+}
+
+#my-works-left {
+    padding: 5% 0 5% 150px ;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#my-works-image {
+    width: 100%;
+}
+
+#my-works--text-box--entry {
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 25px 1fr;
+    margin-bottom: 50px;
+}
+
+
+#my-works-right {
+    padding: 5% 15% 5% 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-text {
+    font-weight:bolder;
+    font-family: Poppins;
+    font-size:60px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.sub-header-text{
+    font-weight:bold; 
+    font-family: Poppins;
+    font-size:40px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+    .header-text {
+        font-size: 50px;
+    }
+    .sub-header-text{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-text {
+        font-size: 40px;
+    }
+    .sub-header-text{
+        font-size: 20px;
+    }
+}    
+
+@media (max-width: 480px) {
+    .header-text {
+        font-size: 30px;
+    }  
+    .sub-header-text{
+        font-size: 20px;
+    }
+} 
+
+.content {
+    scroll-margin-top: 59px;
+}
+
+.body-title{
+    font-weight:bold; 
+    font-family: Poppins;
+    font-size:17px;
+}
+
+.technologies-header-text{
+    font-weight:bold; 
+    font-family: Poppins;
+    font-size:20px;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.body-text{
+    font-family: Poppins;
+    font-size:15px;
+    text-align: justify;
+}
+
+.technologies-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text-link {
+    text-decoration: none;
+    color: #6D213C;
+    display: inline-block;
+}
+
+.header-text-link:hover {
+    text-decoration: none;
+    color: #E90389;
+}
+
+.technologies-text{
+    /* width: 33%; */
+    clear: both;
+    display: inline-block;
+    /* overflow: hidden; */
+    white-space: nowrap;
+    background-color: #6D213C;
+    color: #f9f9f9;
+    margin: 5px;
+    font-family: Poppins;
+    font-size:15px;
+    font-weight:bold; 
+    border-radius: 15px;
+    align-self: center;
+    /* height: 5px; */
+}
