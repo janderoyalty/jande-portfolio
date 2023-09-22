@@ -1,25 +1,36 @@
 #navi-bar{
-    padding: 1% 5%;
     background-color: rgba(31, 31, 31, 0.1);
-
+    
 }
 
 #navi-bar--scroll{
-    padding: 1% 5%;
     background-color: rgba(255, 243, 71, 1);
+    
+}
 
+#navi-bar, #navi-bar--scroll{
+    padding: 1% 2%;
 }
 
 #nav-words, #nav-resume, #nav-contacts, #nav-races {
     color: #6D213C;
     font-weight: bolder;
     text-transform: uppercase;
-    font-size: larger;
+    font-size:x-large;
     
 }
 
+.nav-item {
+    margin: 0 10px;
+    /* background-color: aqua; */
+}
+
+#nav-img {
+    height: 3rem;
+}
 #nav-words:hover, #nav-resume:hover, #nav-contacts:hover{
     color: #E90389;
+    display: block;
 }
 
 #nav-words:active, #nav-resume:active, #nav-contacts:active{

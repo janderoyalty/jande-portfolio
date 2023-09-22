@@ -3,7 +3,7 @@
 }
 
 #landing--left {
-    padding: 5%;
+    padding: 5rem;
 }
 
 #landing--left--top {
@@ -12,7 +12,7 @@
 
 #landing--left--top--name {
     color: #6D213C;
-    font-size: 4.75vmax;
+    font-size: 4rem;
     font-weight:bolder;
     text-transform: uppercase;
     text-align: left;
@@ -20,14 +20,14 @@
 
 #landing--left--top--pronounciation {
     color: #6D213C;
-    font-size: 2.5vmax;
+    font-size: 2rem;
     font-weight:bolder;
     text-align: left;
 }
 
 #landing--left--bottom {
     color: #6D213C;
-    font-size: 3.25vmax;
+    font-size: 3rem;
     font-weight:bolder;
     text-transform: uppercase;
     padding: 50px 0 0 20px;
@@ -36,9 +36,12 @@
 
 
 #landing--right {
-    padding: 5%;
+    padding: 2rem;
+    justify-items: center;
+    align-self: center;
 }
 
-#jande-image {
+#jande-image { 
+    display: flex;
     width: 100%;
 }

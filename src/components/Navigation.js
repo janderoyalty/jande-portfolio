@@ -34,6 +34,7 @@ const Navigation = () => {
         <Container fluid>
           <Navbar.Brand href="#home">
             <img
+            id="nav-img"
               src={logo} // Logo overlay color #6d213c
               alt="Jande Royalty logo"
               height="35em"
@@ -42,10 +43,11 @@ const Navigation = () => {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="ms-auto my-2 my-lg-0" navbarScroll>
-              <Nav.Link id="nav-words" href="#my-works">
-                My Works
+              <Nav.Link className="nav-item" id="nav-words" href="#my-works">
+                My Projects
               </Nav.Link>
               <Nav.Link
+                className="nav-item"
                 id="nav-resume"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,7 +55,11 @@ const Navigation = () => {
               >
                 My Resume
               </Nav.Link>
-              <Nav.Link id="nav-contacts" href="#my-contact">
+              <Nav.Link
+                className="nav-item"
+                id="nav-contacts"
+                href="#my-contact"
+              >
                 My Contact
               </Nav.Link>
             </Nav>

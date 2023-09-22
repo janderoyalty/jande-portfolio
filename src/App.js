@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 
 import Navigation from "./components/Navigation";
-import Works from "./components/Works";
+import Projects from "./components/Projects";
+import Projects2 from "./components/Projects2";
 import Contact from "./components/Contact";
 // import Footer from "./components/Footer";
 
@@ -21,7 +22,8 @@ function App() {
       <div id="app-content">
         <Navigation></Navigation>
         <Landing></Landing>
-        <Works></Works>
+        {/* <Projects></Projects> */}
+        <Projects2></Projects2>
         <Contact></Contact>
       </div>
     </div>
