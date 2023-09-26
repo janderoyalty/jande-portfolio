@@ -51,7 +51,7 @@ const Navigation = () => {
                 id="nav-resume"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:d1337289-41b8-3e1d-bbd1-73099b75064b"
+                href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:dda35c98-1969-37f1-8287-8194f50da14f"
               >
                 My Resume
               </Nav.Link>
