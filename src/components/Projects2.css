@@ -1,5 +1,6 @@
 #my-works{
     display: flex;
+    background-color: #f8b7b7;
 }
 
 #my-works-left {
@@ -121,4 +122,25 @@
     flex-direction: row;
     justify-content:stretch;
     flex-wrap: wrap;
+}
+
+/* WAVY */
+.custom-shape-divider-bottom-1710142400 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1710142400 svg {
+    position: relative;
+    display: block;
+    width: calc(131% + 1.3px);
+    height: 51px;
+}
+
+.custom-shape-divider-bottom-1710142400 .shape-fill {
+    fill: #F8B7B7;
 }
