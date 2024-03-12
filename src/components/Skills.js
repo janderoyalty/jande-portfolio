@@ -14,7 +14,14 @@ import {
   IoLogoFirebase,
 } from "react-icons/io5";
 import { DiDjango } from "react-icons/di";
-import { SiMysql, SiPytest, SiPostman, SiTrello, SiFigma, SiAdobecreativecloud } from "react-icons/si";
+import {
+  SiMysql,
+  SiPytest,
+  SiPostman,
+  SiTrello,
+  SiFigma,
+  SiAdobecreativecloud,
+} from "react-icons/si";
 
 import { CPlusPlus, Postgresql } from "@styled-icons/boxicons-logos";
 import { Microsoftazure } from "@styled-icons/simple-icons";
@@ -34,7 +41,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <IoLogoPython className="skill-icon" size="85px" />
+          <IoLogoPython className="skill-icon" title="Python" size="85px" />
         </Col>
 
         <Col className="my-skills--col">
@@ -44,7 +51,11 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <IoLogoJavascript className="skill-icon" size="85px" />
+          <IoLogoJavascript
+            className="skill-icon"
+            title="Javascript"
+            size="85px"
+          />
         </Col>
 
         <Col className="my-skills--col">
@@ -54,7 +65,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <CPlusPlus className="skill-icon" size="85px" />
+          <CPlusPlus className="skill-icon" title="C++" size="85px" />
         </Col>
 
         <Col className="my-skills--col">
@@ -64,7 +75,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <IoLogoHtml5 className="skill-icon" size="85px" />
+          <IoLogoHtml5 className="skill-icon" title="HTML" size="85px" />
         </Col>
 
         <Col className="my-skills--col">
@@ -74,7 +85,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <IoLogoCss3 className="skill-icon" size="85px" />
+          <IoLogoCss3 className="skill-icon" title="CSS" size="85px" />
         </Col>
 
         <Col className="my-skills--col">
@@ -84,7 +95,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <IoLogoReact className="skill-icon" size="85px" />
+          <IoLogoReact className="skill-icon" title="React" size="85px" />
         </Col>
       </Row>
 
@@ -97,7 +108,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <DiDjango className="skill-icon" size="85px" />
+          <DiDjango className="skill-icon" title="Django" size="85px" />
         </Col>
 
         <Col className="my-skills--col">
@@ -107,7 +118,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <Postgresql className="skill-icon" size="85px" />
+          <Postgresql className="skill-icon" title="PostgreSQL" size="85px" />
         </Col>
 
         <Col className="my-skills--col">
@@ -117,7 +128,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <SiMysql className="skill-icon" size="85px" />
+          <SiMysql className="skill-icon" title="MySQL" size="85px" />
         </Col>
 
         <Col className="my-skills--col">
@@ -127,7 +138,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <IoLogoFirebase className="skill-icon" size="85px" />
+          <IoLogoFirebase className="skill-icon" title="Firebase" size="85px" />
         </Col>
 
         <Col className="my-skills--col">
@@ -137,7 +148,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <Microsoftazure className="skill-icon" size="85px" />
+          <Microsoftazure className="skill-icon" title="Azure" size="85px" />
         </Col>
 
         <Col className="my-skills--col">
@@ -147,7 +158,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <SiPytest className="skill-icon" size="85px" />
+          <SiPytest className="skill-icon" title="Pytest" size="85px" />
         </Col>
       </Row>
 
@@ -160,7 +171,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <Git className="skill-icon" size="85px" />
+          <Git className="skill-icon" title="Git" size="85px" />
         </Col>
 
         <Col className="my-skills--col">
@@ -170,7 +181,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <Github className="skill-icon" size="85px" />
+          <Github className="skill-icon" title="Github" size="85px" />
         </Col>
 
         <Col className="my-skills--col">
@@ -180,7 +191,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <SiPostman className="skill-icon" size="85px" />
+          <SiPostman className="skill-icon" title="Postman" size="85px" />
         </Col>
 
         <Col className="my-skills--col">
@@ -190,7 +201,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <SiTrello className="skill-icon" size="85px" />
+          <SiTrello className="skill-icon" title="Trello" size="85px" />
         </Col>
 
         <Col className="my-skills--col">
@@ -200,7 +211,7 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <SiFigma className="skill-icon" size="85px" />
+          <SiFigma className="skill-icon" title="Figma" size="85px" />
         </Col>
 
         <Col className="my-skills--col">
@@ -210,7 +221,11 @@ const Skills = () => {
             rounded
             className="pick-shape"
           ></Image>
-          <SiAdobecreativecloud className="skill-icon" size="85px" />
+          <SiAdobecreativecloud
+            className="skill-icon"
+            title="Adobe Creative Cloud"
+            size="85px"
+          />
         </Col>
       </Row>
     </div>
