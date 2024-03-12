@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import logo from "../images/Jande_Royalty_logo.png";
 import "./Navigation.css";
+
+import { Container, Nav, Navbar } from "react-bootstrap";
+
+import logo from "../images/Jande_Royalty_logo.png";
 
 const Navigation = () => {
   const [navTransparency, setNavTransparency] = useState("navi-bar");

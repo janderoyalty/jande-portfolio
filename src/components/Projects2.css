@@ -1,5 +1,4 @@
 #my-works{
-    /* height: 100vmin; */
     display: flex;
     background-color: #f8b7b7;
     padding-bottom: 75px;
@@ -85,11 +84,6 @@
     align-items: stretch;
     font-size: 1.5rem;
 }
-.container{
-    left: 23%;
-    width: 50%;
-    position: absolute;
-}
 
 .links {
     text-decoration: none;
@@ -120,7 +114,6 @@
 }
 
 .technologies--github-techs{
-    /* font-size: 1.3rem; */
     display: flex !important;
     flex-direction: row;
     justify-content:stretch;
@@ -131,7 +124,6 @@
     width: 25px;
     height: 25px;
     border-radius: 100%;
-    /* background-color: #fff; */
 }
 
 button.carousel-indicators {

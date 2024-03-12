@@ -6,10 +6,8 @@ import MoratiaGamesMockUp from "../images/Mockup bg Moratia Games.png";
 import WeatherReportMockUp from "../images/Mockup bg Weather Report.png";
 
 // Bootstrap
-import Carousel from "react-bootstrap/Carousel";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
+import {Carousel, Row, Col, Image} from "react-bootstrap";
+
 
 // Icons
 import { AiFillGithub } from "react-icons/ai";

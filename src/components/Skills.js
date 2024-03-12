@@ -5,6 +5,8 @@ import { Row, Col } from "react-bootstrap";
 // Images
 import Image from "react-bootstrap/Image";
 import pick from "../images/Jande_skills_image_back.png";
+
+// Icons
 import {
   IoLogoPython,
   IoLogoJavascript,
@@ -22,7 +24,6 @@ import {
   SiFigma,
   SiAdobecreativecloud,
 } from "react-icons/si";
-
 import { CPlusPlus, Postgresql } from "@styled-icons/boxicons-logos";
 import { Microsoftazure } from "@styled-icons/simple-icons";
 import { Git, Github } from "@styled-icons/bootstrap";
