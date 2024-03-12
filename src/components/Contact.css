@@ -1,4 +1,61 @@
 #my-contact {
-    height: 100vmin;
+    height: 1fr;
     background-color: rgba(248,239,184, 1);
+    display: flex;
+}
+
+#my-contact--container{
+    width: 80vmax; 
+    margin: 25px auto; 
+}
+#my-contact--header-text {
+    font-weight:bolder;
+    font-family: Poppins;
+    font-size:60px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-self: center;
+    height: 75px;
+    margin-bottom: 25px    
+}
+
+.my-contact--form-header {
+    text-transform: uppercase;
+    font-weight:bolder;
+    display: flex;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+#my-contact--form-button {
+    background-color: #FC36A9;
+    border-color: #FC36A9;
+}
+
+#my-contact--form-button:hover {
+    background-color: #E90389;
+    border-color: #E90389;
+}
+
+#my-contact--dark-red-box, #my-contact--left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#my-contact--right {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#my-contact--left {
+    padding: 25px 0;
+}
+
+
+#jande-image {
+    height: auto;
+    max-width: 80%;
 }

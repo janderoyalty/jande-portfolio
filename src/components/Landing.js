@@ -3,9 +3,7 @@ import "./Landing.css";
 
 import hawaii from "../images/Jande in Hawaii.png";
 
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
+import { Row, Col, Image } from "react-bootstrap";
 
 const Landing = () => {
   return (
