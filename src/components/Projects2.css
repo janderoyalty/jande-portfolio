@@ -1,5 +1,5 @@
 #my-works{
-    height: 100vmin;
+    /* height: 100vmin; */
     display: flex;
     background-color: #f8b7b7;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);

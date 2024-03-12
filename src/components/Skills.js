@@ -32,7 +32,6 @@ const Skills = () => {
     <div className="content" id="my-skills">
       <Row id="my-skills--header-text">Skills</Row>
 
-      {/* ************1st Skill Row************ */}
       <Row className="my-skills--row">
         <Col className="my-skills--col">
           <Image
@@ -97,10 +96,7 @@ const Skills = () => {
           ></Image>
           <IoLogoReact className="skill-icon" title="React" size="85px" />
         </Col>
-      </Row>
 
-      {/* ************2nd Skill Row************ */}
-      <Row className="my-skills--row">
         <Col className="my-skills--col">
           <Image
             src={pick}
@@ -160,10 +156,7 @@ const Skills = () => {
           ></Image>
           <SiPytest className="skill-icon" title="Pytest" size="85px" />
         </Col>
-      </Row>
 
-      {/* ************3rd Skill Row************ */}
-      <Row className="my-skills--row">
         <Col className="my-skills--col">
           <Image
             src={pick}

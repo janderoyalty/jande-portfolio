@@ -102,3 +102,24 @@
   fill: #F8B7B7;
 }
 
+/* YELLOW WAVE TOP*/
+.custom-shape-divider-bottom-1710142400-B {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  
+}
+
+.custom-shape-divider-bottom-1710142400-B svg {
+  position: relative;
+  display: block;
+  width: calc(131% + 1.3px);
+  height: 51px;
+}
+
+.custom-shape-divider-bottom-1710142400-B .shape-fill-B {
+  fill: #f8efb8;
+}
