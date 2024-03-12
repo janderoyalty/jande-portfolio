@@ -125,12 +125,3 @@
     justify-content:stretch;
     flex-wrap: wrap;
 }
-
-/* angled div */
-.slanted-div {
-    position: relative;
-    /* padding: 200px 0; */
-    background: #f8b7b7;
-    overflow: visible;
-    z-index: 1;
-}

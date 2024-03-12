@@ -1,94 +1,46 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Footer.css";
+
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
-import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
 
 const Footer = () => {
-  const [showModal, setShowModal] = useState(false);
-
-  const handleCloseModal = () => setShowModal(false);
-  const handleShowModal = () => setShowModal(true);
-
   return (
-    <div className="content" id="footer">
+    <div className="content" id="my-footer">
       <Row>
-        {/* LEFT - logo */}
-        <Col id="footer--left">
-          <a href="#home">
-            <img
-              src="https://firebasestorage.googleapis.com/v0/b/moratia-games.appspot.com/o/logos%2FMoratia_Games_logo_white.png?alt=media&token=7006baf5-fa84-4ea3-aed2-62e7182dc95f"
-              alt="Moratia Games logo white"
-              height="25px"
-            />
+        <Col className="footer-info">
+          <a href="mailto: janderoyalty@gmail.com" className="links">
+            janderoyalty@gmail.com
           </a>
         </Col>
-        {/* MIDDLE - legal, created by, login */}
-        <Col id="footer-center">
-          <div>© COPYRIGHT 2023. ALL RIGHTS RESERVED.</div>
-          <div>Moratia Games</div>
-          <div>
-            Website by{" "}
-            <a
-              className="footer-link"
-              href="https://www.linkedin.com/in/janderoyalty/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Jande Royalty
-            </a>
-          </div>
-
-
-          {/* LOGIN + MODAL */}
-          <div>
-            {/* <div className="footer-link" onClick={props.handleShowModal}> */}
-            <div className="footer-link" onClick={handleShowModal}>
-              Login
-            </div>
-
-            {/* <Modal show={props.showModal} onHide={props.handleCloseModal}> */}
-            <Modal show={showModal} onHide={handleCloseModal}>
-              <Modal.Header closeButton>
-                <Modal.Title id="modal-title">
-                  For Authorized Persons Only
-                </Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-              </Modal.Body>
-              <Modal.Footer>
-                {/* <Button variant="secondary" onClick={props.handleCloseModal}> */}
-                <Button variant="secondary" onClick={handleCloseModal}>
-                  Close
-                </Button>
-              </Modal.Footer>
-            </Modal>
-          </div>
-        </Col>
-        <Col id="footer--right">
-          <Row>
-            <Col>
+        <Col>
+          <Row id="social-icons-container">
+            <Col className="social-icons">
               <a
-                href="https://www.facebook.com/MoratiaGames"
+                href="https://www.linkedin.com/in/janderoyalty/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillFacebook size="2em" color="#f9f9ff" />
+                <AiFillLinkedin size="35px" color="#6D213C"></AiFillLinkedin>
               </a>
-
+            </Col>
+            <Col className="social-icons">
               <a
-                href="https://www.instagram.com/moratiagames/"
+                href="https://github.com/janderoyalty"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram size="2em" color="#f9f9ff" />
+                <AiFillGithub size="35px" color="#6D213C"></AiFillGithub>
               </a>
             </Col>
           </Row>
+        </Col>
+        <Col className="footer-info">
+          <a href="tel:6155385787" className="links">
+            615.538.5787
+          </a>
         </Col>
       </Row>
     </div>

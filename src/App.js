@@ -4,8 +4,8 @@ import "./App.css";
 import Navigation from "./components/Navigation";
 import Skills from "./components/Skills";
 import Projects2 from "./components/Projects2";
+import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-// import Footer from "./components/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Landing from "./components/Landing";
@@ -39,6 +39,7 @@ function App() {
         <Projects2></Projects2>
         <Skills></Skills>
         <Contact></Contact>
+        <Footer></Footer>
       </div>
     </div>
   );
