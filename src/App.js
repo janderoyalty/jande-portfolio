@@ -22,6 +22,7 @@ function App() {
       <div id="app-content">
         <Navigation></Navigation>
         <Landing></Landing>
+
         {/* PINK WAVE TOP */}
         <div class="custom-shape-divider-bottom-1710142400">
           <svg
@@ -36,7 +37,9 @@ function App() {
             ></path>
           </svg>
         </div>
+
         <Projects2></Projects2>
+
         <Skills></Skills>
         {/* YELLOW WAVE TOP */}
         <div class="custom-shape-divider-bottom-1710142400-B">

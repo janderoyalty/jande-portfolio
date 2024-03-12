@@ -2,7 +2,8 @@
     /* height: 100vmin; */
     display: flex;
     background-color: #f8b7b7;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+    padding-bottom: 75px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
 
 #my-works-left {
@@ -124,4 +125,19 @@
     flex-direction: row;
     justify-content:stretch;
     flex-wrap: wrap;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    /* background-color: #fff; */
+}
+
+button.carousel-indicators {
+    background-color: red;
+}
+
+.carousel-control-prev-icon , .carousel-control-next-icon {
+    opacity: 0%;
 }

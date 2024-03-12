@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap";
 
 // Images
 import Image from "react-bootstrap/Image";
-import pick from "../images/Jande's image back.png";
+import pick from "../images/Jande_skills_image_back.png";
 import {
   IoLogoPython,
   IoLogoJavascript,

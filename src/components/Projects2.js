@@ -17,8 +17,8 @@ import { FaLink } from "react-icons/fa";
 
 const Projects2 = () => {
   return (
-    <div>
-      <Carousel variant="dark" id="my-works">
+    <div id="my-works">
+      <Carousel variant="dark">
         {/* ITEM 1: MORATIA GAMES */}
         <Carousel.Item>
           <Row>
