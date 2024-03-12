@@ -1,6 +1,8 @@
 #my-works{
+    height: 100vmin;
     display: flex;
     background-color: #f8b7b7;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
 }
 
 #my-works-left {
@@ -124,23 +126,11 @@
     flex-wrap: wrap;
 }
 
-/* WAVY */
-.custom-shape-divider-bottom-1710142400 {
+/* angled div */
+.slanted-div {
     position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1710142400 svg {
-    position: relative;
-    display: block;
-    width: calc(131% + 1.3px);
-    height: 51px;
-}
-
-.custom-shape-divider-bottom-1710142400 .shape-fill {
-    fill: #F8B7B7;
+    /* padding: 200px 0; */
+    background: #f8b7b7;
+    overflow: visible;
+    z-index: 1;
 }

@@ -34,7 +34,7 @@ const Navigation = () => {
         <Container fluid>
           <Navbar.Brand href="#home">
             <img
-            id="nav-img"
+              id="nav-img"
               src={logo} // Logo overlay color #6d213c
               alt="Jande Royalty logo"
               height="35em"
@@ -46,12 +46,15 @@ const Navigation = () => {
               <Nav.Link className="nav-item" id="nav-words" href="#my-works">
                 My Projects
               </Nav.Link>
+              <Nav.Link className="nav-item" id="nav-words" href="#my-skills">
+                My Skills
+              </Nav.Link>
               <Nav.Link
                 className="nav-item"
                 id="nav-resume"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:dda35c98-1969-37f1-8287-8194f50da14f"
+                href="https://acrobat.adobe.com/id/urn:aaid:sc:US:26e33e78-9a94-430e-a1d8-913f9b8fdad0"
               >
                 My Resume
               </Nav.Link>

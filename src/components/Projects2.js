@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Projects2.css";
 
 // Images
@@ -10,8 +10,6 @@ import Carousel from "react-bootstrap/Carousel";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
 
 // Icons
 import { AiFillGithub } from "react-icons/ai";
@@ -55,7 +53,6 @@ const Projects2 = () => {
               >
                 <FaLink
                   size="2rem"
-                  // color="#6D213C"
                   title="Weather Report Website"
                   id="view-project-link-icon"
                 />

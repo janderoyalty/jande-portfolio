@@ -1,0 +1,44 @@
+#my-skills {
+    /* padding-top: 25px; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 100vh;
+    width: 75vw;
+    margin: auto;
+}
+
+#my-skills--header-text {
+    font-weight:bolder;
+    font-family: Poppins;
+    font-size:60px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-self: center;
+    height: 75px;
+    margin-bottom: 50px    
+}
+
+.my-skills--row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pick-shape {
+    width: 150px;
+}
+
+.skill-icon {
+    position: absolute;
+    position: absolute;
+    z-index: 1;
+}
+
+.my-skills--col {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
