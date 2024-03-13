@@ -5,7 +5,8 @@ import Navigation from "./components/Navigation";
 import Skills from "./components/Skills";
 import Projects2 from "./components/Projects2";
 import Footer from "./components/Footer";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
+import Contact2 from "./components/Contact2";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Landing from "./components/Landing";
@@ -56,7 +57,7 @@ function App() {
           </svg>
         </div>
 
-        <Contact></Contact>
+        <Contact2></Contact2>
         <Footer></Footer>
       </div>
     </div>
