@@ -9,36 +9,32 @@ import { Row, Col, Image } from "react-bootstrap";
 const Contact = () => {
   return (
     <div className="content" id="my-contact">
-      <Row id="my-contact--container">
-        {/* LEFT SIDE */}
-        <Col id="my-contact--left" sm={12} md={12} lg={5}>
-          <Row id="my-contact--dark-red-box">
-            <Image
-              src={JandeFro}
-              alt="Jande Royalty in Hawaii after a hike"
-              rounded
-              id="jande-image"
-            />
-          </Row>
+      <Row className="content" id="home">
+        <Col id="my-contact--left" sm={12} md={12} lg={6}>
+          <Image
+            src={JandeFro}
+            alt="Jande Royalty in Hawaii after a hike"
+            rounded
+            id="my-contact--jande-image"
+          ></Image>
         </Col>
-
-        {/* RIGHT SIDE */}
-        <Col id="my-contact--right" sm={12} md={12} lg={7}>
-          <Row id="my-contact--header-text">Contact Me</Row>
-          <Row className="my-contact--info">
-            <div className="my-contact--info--detail">
-              <AiOutlineMail size="50px" />
-              <Col className="my-contact--text ">
-                <a href="mailto: janderoyalty@gmail.com" className="links">
+        <Col id="my-contact--right" sm={12} md={12} lg={6}>
+          <Row id="my-contact--right--container">
+            <h1 id="my-contact--right--container--header">Contact Me</h1>
+            <Row id="my-contact--right--container--links">
+              <Col>
+                <AiOutlineMail size="50px" />
+                <a
+                  href="mailto: janderoyalty@gmail.com"
+                  className="links my-contact--links"
+                >
                   janderoyalty@gmail.com
                 </a>
               </Col>
-            </div>
-            <div className="my-contact--info--detail">
-              <AiFillLinkedin size="50px" />
-              <Col className="my-contact--text ">
+              <Col>
+                <AiFillLinkedin size="50px" />
                 <a
-                  className="links"
+                  className="links my-contact--links"
                   href="https://www.linkedin.com/in/janderoyalty/"
                   target="_blank"
                   rel="noreferrer"
@@ -46,12 +42,10 @@ const Contact = () => {
                   linkedin.com/in/janderoyalty
                 </a>
               </Col>
-            </div>
-            <div className="my-contact--info--detail">
-              <AiFillGithub size="50px" />
-              <Col className="my-contact--text ">
+              <Col>
+                <AiFillGithub size="50px" />
                 <a
-                  className="links"
+                  className="links my-contact--links"
                   href="https://github.com/janderoyalty"
                   target="_blank"
                   rel="noreferrer"
@@ -59,7 +53,7 @@ const Contact = () => {
                   github.com/janderoyalty
                 </a>
               </Col>
-            </div>
+            </Row>
           </Row>
         </Col>
       </Row>
