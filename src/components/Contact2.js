@@ -1,12 +1,13 @@
 import React from "react";
-import "./Landing.css";
+import "./Contact2.css";
 
 import hawaii from "../images/Jande in Hawaii.png";
 
 import { Row, Col, Image } from "react-bootstrap";
 
-const Landing = () => {
+const Contact2 = () => {
   return (
+    <div className="content" id="contact2">
     <Row className="content" id="home">
       <Col id="landing--left" sm={12} md={12} lg={6}>
         <Row id="landing--left--top">
@@ -29,7 +30,8 @@ const Landing = () => {
         ></Image>
       </Col>
     </Row>
+    </div>
   );
 };
 
-export default Landing;
+export default Contact2;

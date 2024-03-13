@@ -6,14 +6,34 @@
 }
 
 #my-works-left {
-    padding: 5% 0 5% 150px ;
-    display: flex;
-    align-items: center;
-    align-content: center;
+    padding-left: 5%;
 }
 
 #my-works-image {
+    display: flex;
     width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    #my-works-left {
+        width: 50%;
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        text-align: center;
+    }
+    #my-works-image {
+        display: flex;
+        justify-items: center;
+        justify-self: center;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+    }
 }
 
 #my-works--text-box--entry {

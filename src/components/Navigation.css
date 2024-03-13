@@ -1,16 +1,22 @@
 #navi-bar{
     background-color: rgba(31, 31, 31, 0.1);
-    
+    padding: 1% 2%;
 }
 
 #navi-bar--scroll{
     background-color: rgba(255, 243, 71, 1);
-    
-}
-
-#navi-bar, #navi-bar--scroll{
     padding: 1% 2%;
 }
+/* 
+#navi-bar, #navi-bar--scroll{
+    padding: 1% 2%;
+} */
+
+#nav-img-container {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+}
+
 
 #nav-words, #nav-resume, #nav-contacts, #nav-races {
     color: #6D213C;
@@ -22,17 +28,38 @@
 
 .nav-item {
     margin: 0 10px;
-    /* background-color: aqua; */
+    color: #6D213C;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: x-large;
 }
 
 #nav-img {
-    height: 3rem;
+    width: 25vw;
 }
+
+/* @media screen and (max-width: 992px) {
+    #nav-img {
+        width: 50vw;
+    }
+} */
+
+@media screen and (max-width: 992px) {
+    #nav-img {
+        width: 150px; /* Set a fixed width for smaller screens */
+    }
+}
+
 #nav-words:hover, #nav-resume:hover, #nav-contacts:hover{
     color: #E90389;
     display: block;
 }
 
 #nav-words:active, #nav-resume:active, #nav-contacts:active{
-    color: #E90389;
+    background-color: #E90389;
 }
+
+/* .nav-item:hover,
+.nav-item:active {
+    color: #E90389;
+} */

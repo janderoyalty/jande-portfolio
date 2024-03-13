@@ -24,8 +24,6 @@ const Navigation = () => {
     <>
       <Navbar
         id={navTransparency}
-        // bg="light"
-        // variant="light"
         sticky="top"
         expand="lg"
         collapseOnSelect="true"
@@ -33,13 +31,21 @@ const Navigation = () => {
       >
         <Container fluid>
           <Navbar.Brand href="#home">
+            <div id="nav-img-container">
+              <img
+                id="nav-img"
+                src={logo} // Logo overlay color #6d213c
+                alt="Jande Royalty logo"
+              />
+            </div>
+          </Navbar.Brand>
+          {/* <Navbar.Brand href="#home">
             <img
               id="nav-img"
               src={logo} // Logo overlay color #6d213c
               alt="Jande Royalty logo"
-              height="35em"
             />
-          </Navbar.Brand>
+          </Navbar.Brand> */}
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="ms-auto my-2 my-lg-0" navbarScroll>

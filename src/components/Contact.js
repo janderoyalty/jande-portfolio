@@ -11,7 +11,7 @@ const Contact = () => {
     <div className="content" id="my-contact">
       <Row id="my-contact--container">
         {/* LEFT SIDE */}
-        <Col id="my-contact--left" sm={12} md={12} lg={6}>
+        <Col id="my-contact--left" sm={12} md={12} lg={5}>
           <Row id="my-contact--dark-red-box">
             <Image
               src={JandeFro}
@@ -23,7 +23,7 @@ const Contact = () => {
         </Col>
 
         {/* RIGHT SIDE */}
-        <Col id="my-contact--right" sm={12} md={12} lg={6}>
+        <Col id="my-contact--right" sm={12} md={12} lg={7}>
           <Row id="my-contact--header-text">Contact Me</Row>
           <Row className="my-contact--info">
             <div className="my-contact--info--detail">
