@@ -7,6 +7,8 @@
 
 #my-works-left {
     padding-left: 5%;
+    display: flex;
+    align-items: center;
 }
 
 #my-works-image {

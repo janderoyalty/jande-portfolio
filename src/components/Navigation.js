@@ -2,28 +2,30 @@ import React, { useState, useEffect } from "react";
 import "./Navigation.css";
 
 import { Container, Nav, Navbar } from "react-bootstrap";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 import logo from "../images/Jande_Royalty_logo.png";
 
 const Navigation = () => {
-  const [navTransparency, setNavTransparency] = useState("navi-bar");
+  // const [navTransparency, setNavTransparency] = useState("navi-bar");
 
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      console.log(typeof window);
-      window.addEventListener("scroll", () =>
-        setNavTransparency("navi-bar--scroll")
-      );
-    } else if (typeof window !== "object") {
-      console.log(typeof window);
-      window.addEventListener("scroll", () => setNavTransparency("navi-ba"));
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (typeof window !== "undefined") {
+  //     console.log(typeof window);
+  //     window.addEventListener("scroll", () =>
+  //       setNavTransparency("navi-bar--scroll")
+  //     );
+  //   } else if (typeof window !== "object") {
+  //     console.log(typeof window);
+  //     window.addEventListener("scroll", () => setNavTransparency("navi-ba"));
+  //   }
+  // }, []);
 
   return (
     <>
       <Navbar
-        id={navTransparency}
+        // id={navTransparency}
+        id="navi-bar"
         sticky="top"
         expand="lg"
         collapseOnSelect="true"
@@ -70,7 +72,7 @@ const Navigation = () => {
                 rel="noopener noreferrer"
                 href="https://acrobat.adobe.com/id/urn:aaid:sc:us:8e7b3f69-a3be-4717-9ffd-18cbec2abfd9"
               >
-                My Resume
+                My Resume <FaExternalLinkAlt size=".5em" />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

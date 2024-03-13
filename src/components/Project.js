@@ -1,19 +1,18 @@
 import React from "react";
-import "./Projects2.css";
+import "./Project.css";
 
 // Images
 import MoratiaGamesMockUp from "../images/Mockup bg Moratia Games.png";
 import WeatherReportMockUp from "../images/Mockup bg Weather Report.png";
 
 // Bootstrap
-import {Carousel, Row, Col, Image} from "react-bootstrap";
-
+import { Carousel, Row, Col, Image } from "react-bootstrap";
 
 // Icons
 import { AiFillGithub } from "react-icons/ai";
 import { FaLink } from "react-icons/fa";
 
-const Projects2 = () => {
+const Project = () => {
   return (
     <div id="my-works">
       <Carousel variant="dark">
@@ -234,4 +233,4 @@ const Projects2 = () => {
   );
 };
 
-export default Projects2;
+export default Project;

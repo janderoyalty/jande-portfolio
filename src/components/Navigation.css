@@ -1,6 +1,7 @@
 #navi-bar{
     background-color: rgba(31, 31, 31, 0.1);
     padding: 1% 2%;
+    width: 100%;
 }
 
 #navi-bar--scroll{
@@ -51,12 +52,12 @@
 }
 
 #nav-words:hover, #nav-resume:hover, #nav-contacts:hover{
-    color: #E90389;
+    color: rgba(248,239,184, 1);
     display: block;
 }
 
 #nav-words:active, #nav-resume:active, #nav-contacts:active{
-    background-color: #E90389;
+    background-color: rgba(248,239,184, 1) !important;
 }
 
 /* .nav-item:hover,
