@@ -1,44 +1,40 @@
 #my-skills {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    width: 75vw;
-    margin: 75px auto 25px;
-    padding-top: 25px;
+	display: flex;
+	flex-direction: column;
+	width: 75vw;
+	margin: 10px auto 1.5rem;
+	position: relative;
 }
 
 #my-skills--header-text {
-    font-weight:bolder;
-    font-family: Poppins;
-    font-size:60px;
-    text-align: center;
-    text-transform: uppercase;
-    display: flex;
-    align-self: center;
-    height: 75px;
-    margin-bottom: 25px    
+	font-weight: bolder;
+	font-family: Poppins;
+	font-size: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	display: flex;
+	align-self: center;
 }
 
 .my-skills--row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
-
 .my-skills--col {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .pick-shape {
-    width: 150px;
+	width: 9.375em;
 }
 
 .skill-icon {
-    position: absolute;
-    position: absolute;
-    z-index: 1;
+	position: absolute;
+	position: absolute;
+	/* z-index: 1; */
 }
