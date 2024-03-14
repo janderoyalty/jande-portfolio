@@ -81,10 +81,25 @@ body {
 	color: #6d213c;
 }
 
+#non-nav-content {
+	overflow-y: auto;
+	flex: 1;
+	width: 100%;
+	max-height: calc(100vh - 81px);
+}
+
+/* .custom-shape-divider-bottom-1710400466 .shape-fill {
+	fill: #f8efb8; YELLOW
+}
+
+.custom-shape-divider-bottom-1710400402 .shape-fill {
+	fill: #f8b7b7; PINK
+} */
+
 /* PINK & YELLOW WAVE TOP*/
-.custom-shape-divider-bottom-1710142400,
-.custom-shape-divider-bottom-1710142400-B {
-	position: relative;
+.custom-shape-divider-bottom-1710401380,
+.custom-shape-divider-bottom-1710401643 {
+	/* position: absolute; */
 	bottom: 0;
 	left: 0;
 	width: 100%;
@@ -92,25 +107,18 @@ body {
 	line-height: 0;
 }
 
-.custom-shape-divider-bottom-1710142400 svg,
-.custom-shape-divider-bottom-1710142400-B svg {
+.custom-shape-divider-bottom-1710401380 svg,
+.custom-shape-divider-bottom-1710401643 svg {
 	position: relative;
 	display: block;
-	width: 100%;
-	height: auto;
+	width: calc(140% + 1.3px);
+	height: 43px;
 }
 
-.custom-shape-divider-bottom-1710142400 .shape-fill {
+.custom-shape-divider-bottom-1710401380 .shape-fill-pink {
 	fill: #f8b7b7;
 }
 
-.custom-shape-divider-bottom-1710142400-B .shape-fill-B {
+.custom-shape-divider-bottom-1710401643 .shape-fill-yellow {
 	fill: #f8efb8;
-}
-
-#non-nav-content {
-	overflow-y: auto;
-	flex: 1;
-	width: 100%;
-	max-height: calc(100vh - 81px);
 }
