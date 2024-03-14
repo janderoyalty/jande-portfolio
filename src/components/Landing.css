@@ -1,11 +1,10 @@
-#landing {
+#landing-container {
 	display: flex;
-	/* height: 82vh; */
 	align-items: center;
-    margin-bottom: 5rem;
+	overflow-x: hidden;
 }
 
-#landing--left {
+.landing--left {
 	padding: 0 5rem;
 }
 
@@ -45,5 +44,12 @@
 
 #landing--jande-image {
 	display: flex;
-	width: 100%;
+	width: 40rem;
+	margin: 3rem 0 5rem;
+}
+
+.landing--right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

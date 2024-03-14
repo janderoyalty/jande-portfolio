@@ -6,7 +6,7 @@
 }
 
 #my-works-left {
-	padding-left: 5%;
+	padding: 0 2rem 0 5rem;
 	display: flex;
 	align-items: center;
 }
@@ -97,10 +97,10 @@
 	text-align: justify;
 }
 
-#technologies--github-row {
+.technologies--github-row {
 	display: flex;
 	justify-content: left;
-	padding: 0;
+	padding-bottom: 0.5rem;
 }
 
 #technologies--github-be,
@@ -152,11 +152,11 @@
 	border-radius: 100%;
 }
 
-button.carousel-indicators {
-	background-color: red;
-}
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
 	opacity: 0%;
+}
+
+.my-works--container {
+	justify-content: center;
 }

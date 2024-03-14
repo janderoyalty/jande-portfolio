@@ -6,6 +6,7 @@ body {
 	overflow: hidden;
 	margin: 0;
 }
+
 :root {
 	/* overall gradient background color */
 	--gradient_bg_color: #f9f9f9; /* white */
@@ -87,14 +88,6 @@ body {
 	width: 100%;
 	max-height: calc(100vh - 81px);
 }
-
-/* .custom-shape-divider-bottom-1710400466 .shape-fill {
-	fill: #f8efb8; YELLOW
-}
-
-.custom-shape-divider-bottom-1710400402 .shape-fill {
-	fill: #f8b7b7; PINK
-} */
 
 /* PINK & YELLOW WAVE TOP*/
 .custom-shape-divider-bottom-1710401380,
