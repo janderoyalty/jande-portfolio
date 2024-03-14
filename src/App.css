@@ -9,7 +9,7 @@ body {
 
 :root {
 	/* overall gradient background color */
-	--gradient_bg_color: #f9f9f9; /* white */
+	--gradient_bg_color: #f9f9f9;
 
 	/* spot 1 - top left corner */
 	--gradient_spot1_color: #f9e900;

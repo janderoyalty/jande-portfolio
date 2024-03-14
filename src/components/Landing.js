@@ -18,8 +18,10 @@ const Landing = () => {
 					<Row id="landing--left--top">
 						<h1 id="landing--left--top--name">Hi! My name is Jande.</h1>
 						<div id="landing--left--top--pronounciation">
-							<div>It sounds like “Andy” with a “J”,</div>
-							<div>but it’s not spelled that way.</div>
+							<div>
+								It sounds like “Andy” with a “J” but it’s not spelled that way.
+							</div>
+							{/* <div></div> */}
 						</div>
 					</Row>
 					<Row id="landing--left--bottom">

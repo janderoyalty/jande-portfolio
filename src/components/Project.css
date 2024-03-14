@@ -13,7 +13,8 @@
 
 #my-works-image {
 	display: flex;
-	width: 100%;
+	width: 35rem;
+	padding-right: 3rem;
 }
 
 @media screen and (max-width: 992px) {
@@ -25,16 +26,6 @@
 		align-self: center;
 		align-items: center;
 		text-align: center;
-	}
-	#my-works-image {
-		display: flex;
-		justify-items: center;
-		justify-self: center;
-		justify-content: center;
-		align-self: center;
-		align-items: center;
-		align-content: center;
-		width: 100%;
 	}
 
 	#my-works {
@@ -50,10 +41,11 @@
 }
 
 #my-works-right {
-	padding: 2rem 5rem 2rem 3rem;
+	padding: 0 3rem 2rem 5rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
 
 .header-text {
@@ -101,6 +93,7 @@
 	display: flex;
 	justify-content: left;
 	padding-bottom: 0.5rem;
+	flex-wrap: wrap;
 }
 
 #technologies--github-be,
@@ -126,17 +119,19 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	white-space: nowrap;
 }
 
 #view-project-link-icon {
-	margin: 0 25px 0 0;
+	margin-right: 1.5rem;
 }
 
 .technologies-text {
 	display: flex;
 	text-align: left;
-	margin: 0 50px 15px 0;
+	margin: 0 3.125rem 0.5rem 0;
 	font-size: 1.1rem;
+	white-space: nowrap;
 }
 
 .technologies--github-techs {
@@ -160,3 +155,27 @@
 .my-works--container {
 	justify-content: center;
 }
+
+.my-works-right--container {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 1260px) {
+	#my-works-image {
+		width: 30rem;
+		display: flex;
+		justify-items: center;
+	}
+}
+@media screen and (max-width: 600px) {
+	#my-works-image {
+		width: 25rem;
+		display: flex;
+		justify-items: center;
+	}
+}
+
+/* .github-link-icon {
+} */
