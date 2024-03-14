@@ -1,157 +1,158 @@
-#my-works{
-    display: flex;
-    background-color: #f8b7b7;
-    padding-bottom: 75px;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+#my-works {
+	display: flex;
+	background-color: #f8b7b7;
+	padding-bottom: 75px;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
 }
 
 #my-works-left {
-    padding-left: 5%;
-    display: flex;
-    align-items: center;
+	padding-left: 5%;
+	display: flex;
+	align-items: center;
 }
 
 #my-works-image {
-    display: flex;
-    width: 100%;
+	display: flex;
+	width: 100%;
 }
 
 @media screen and (max-width: 992px) {
-    #my-works-left {
-        width: 50%;
-        display: flex;
-        justify-items: center;
-        justify-content: center;
-        align-self: center;
-        align-items: center;
-        text-align: center;
-    }
-    #my-works-image {
-        display: flex;
-        justify-items: center;
-        justify-self: center;
-        justify-content: center;
-        align-self: center;
-        align-items: center;
-        align-content: center;
-        width: 100%;
-    }
+	#my-works-left {
+		width: 50%;
+		display: flex;
+		justify-items: center;
+		justify-content: center;
+		align-self: center;
+		align-items: center;
+		text-align: center;
+	}
+	#my-works-image {
+		display: flex;
+		justify-items: center;
+		justify-self: center;
+		justify-content: center;
+		align-self: center;
+		align-items: center;
+		align-content: center;
+		width: 100%;
+	}
 }
 
 #my-works--text-box--entry {
-    display: flex;
-    flex-direction: column;
-    grid-template-rows: 25px 1fr;
-    margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	grid-template-rows: 25px 1fr;
+	margin-bottom: 50px;
 }
 
-
 #my-works-right {
-    padding: 5% 10% 5% 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+	padding: 5% 10% 5% 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .header-text {
-    font-weight:bolder;
-    font-family: Poppins;
-    font-size:60px;
-    text-align: left;
-    text-transform: uppercase;
+	font-weight: bolder;
+	font-family: Poppins;
+	font-size: 60px;
+	text-align: left;
+	text-transform: uppercase;
 }
 
-.sub-header-text{
-    font-weight:bold; 
-    font-family: Poppins;
-    font-size: 2rem;
-    text-align: left;
-    text-transform: uppercase;
+.sub-header-text {
+	font-weight: bold;
+	font-family: Poppins;
+	font-size: 2rem;
+	text-align: left;
+	text-transform: uppercase;
 }
 
 .content {
-    scroll-margin-top: 59px;
+	scroll-margin-top: 59px;
 }
 
-.body-title{
-    font-weight:bold; 
-    font-family: Poppins;
-    font-size:17px;
+.body-title {
+	font-weight: bold;
+	font-family: Poppins;
+	font-size: 17px;
 }
 
-.technologies{
-    font-weight:bold; 
-    font-family: Poppins;
-    font-size: 1.75rem;
-    justify-content: left;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+.technologies {
+	font-weight: bold;
+	font-family: Poppins;
+	font-size: 1.75rem;
+	justify-content: left;
+	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 
-.body-text{
-    font-family: Poppins;
-    font-size:15px;
-    text-align: justify;
+.body-text {
+	font-family: Poppins;
+	font-size: 15px;
+	text-align: justify;
 }
 
 #technologies--github-row {
-    display: flex;
-    justify-content: left;
-    padding: 0;
+	display: flex;
+	justify-content: left;
+	padding: 0;
 }
 
-#technologies--github-be, #technologies--github-fe {
-    display: flex;
-    justify-content: left;
-    align-items: stretch;
-    font-size: 1.5rem;
+#technologies--github-be,
+#technologies--github-fe {
+	display: flex;
+	justify-content: left;
+	align-items: stretch;
+	font-size: 1.5rem;
 }
 
 .links {
-    text-decoration: none;
-    color: #6D213C;
-    display: inline-block;
+	text-decoration: none;
+	color: #6d213c;
+	display: inline-block;
 }
 
 .links:hover {
-    text-decoration: none;
-    color: #E90389;
+	text-decoration: none;
+	color: #e90389;
 }
 
 .view-project-link {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 #view-project-link-icon {
-    margin: 0 25px 0 0;
+	margin: 0 25px 0 0;
 }
 
 .technologies-text {
-    display: flex;
-    text-align: left;
-    margin: 0 50px 15px 0;
-    font-size: 1.1rem;
+	display: flex;
+	text-align: left;
+	margin: 0 50px 15px 0;
+	font-size: 1.1rem;
 }
 
-.technologies--github-techs{
-    display: flex !important;
-    flex-direction: row;
-    justify-content:stretch;
-    flex-wrap: wrap;
+.technologies--github-techs {
+	display: flex !important;
+	flex-direction: row;
+	justify-content: stretch;
+	flex-wrap: wrap;
 }
 
 .carousel-dark .carousel-indicators [data-bs-target] {
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
 }
 
 button.carousel-indicators {
-    background-color: red;
+	background-color: red;
 }
 
-.carousel-control-prev-icon , .carousel-control-next-icon {
-    opacity: 0%;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	opacity: 0%;
 }

@@ -1,115 +1,116 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 body {
-  overflow:hidden;
-  margin: 0;
+	overflow: hidden;
+	margin: 0;
 }
 :root {
-  /* overall gradient background color */
-  --gradient_bg_color: #F9F9F9; /* white */
+	/* overall gradient background color */
+	--gradient_bg_color: #f9f9f9; /* white */
 
-  /* spot 1 - top left corner */
-  --gradient_spot1_color: #f9e900 ;
-  --gradient_spot1_w: 75%;
-  --gradient_spot1_h: 75%;
-  --gradient_spot1_x: 0%;
-  --gradient_spot1_y: 0%;
+	/* spot 1 - top left corner */
+	--gradient_spot1_color: #f9e900;
+	--gradient_spot1_w: 75%;
+	--gradient_spot1_h: 75%;
+	--gradient_spot1_x: 0%;
+	--gradient_spot1_y: 0%;
 
-  /* spot 2 - top right corner */
-  --gradient_spot2_color: #E90389;
-  --gradient_spot2_w: 75%;
-  --gradient_spot2_h: 75%;
-  --gradient_spot2_x: 100%;
-  --gradient_spot2_y: 0%;
-  
-  /* spot 3 - bottom right corner */
-  --gradient_spot3_color: #FFF347;
-  --gradient_spot3_w: 75%;
-  --gradient_spot3_h: 75%;
-  --gradient_spot3_x: 100%;
-  --gradient_spot3_y: 100%;
+	/* spot 2 - top right corner */
+	--gradient_spot2_color: #e90389;
+	--gradient_spot2_w: 75%;
+	--gradient_spot2_h: 75%;
+	--gradient_spot2_x: 100%;
+	--gradient_spot2_y: 0%;
 
-  /* spot 4 - bottom left corner */
---gradient_spot4_color: #FC36A9;
-  --gradient_spot4_w: 75%;
-  --gradient_spot4_h: 75%;
-  --gradient_spot4_x: 0%;
-  --gradient_spot4_y: 100%;
+	/* spot 3 - bottom right corner */
+	--gradient_spot3_color: #fff347;
+	--gradient_spot3_w: 75%;
+	--gradient_spot3_h: 75%;
+	--gradient_spot3_x: 100%;
+	--gradient_spot3_y: 100%;
+
+	/* spot 4 - bottom left corner */
+	--gradient_spot4_color: #fc36a9;
+	--gradient_spot4_w: 75%;
+	--gradient_spot4_h: 75%;
+	--gradient_spot4_x: 0%;
+	--gradient_spot4_y: 100%;
 }
 
 #bg {
-  background-color: var(--gradient_bg_color);
-  background-image:
-    radial-gradient(
-      var(--gradient_spot1_w) var(--gradient_spot1_h)
-      at left var(--gradient_spot1_x) top var(--gradient_spot1_y),
-      var(--gradient_spot1_color),
-      transparent
-    ),
-    radial-gradient(
-      var(--gradient_spot2_w) var(--gradient_spot2_h)
-      at left var(--gradient_spot2_x) top var(--gradient_spot2_y),
-      var(--gradient_spot2_color),
-      transparent
-    ),
-    radial-gradient(
-      var(--gradient_spot3_w) var(--gradient_spot3_h)
-      at left var(--gradient_spot3_x) top var(--gradient_spot3_y),
-      var(--gradient_spot3_color),
-      transparent
-    ),
-    radial-gradient(
-      var(--gradient_spot4_w) var(--gradient_spot4_h)
-      at left var(--gradient_spot4_x) top var(--gradient_spot4_y),
-      var(--gradient_spot4_color),
-      transparent
-    );
-  background-position: center;
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  z-index: -1; 
+	background-color: var(--gradient_bg_color);
+	background-image: radial-gradient(
+			var(--gradient_spot1_w) var(--gradient_spot1_h) at left
+				var(--gradient_spot1_x) top var(--gradient_spot1_y),
+			var(--gradient_spot1_color),
+			transparent
+		),
+		radial-gradient(
+			var(--gradient_spot2_w) var(--gradient_spot2_h) at left
+				var(--gradient_spot2_x) top var(--gradient_spot2_y),
+			var(--gradient_spot2_color),
+			transparent
+		),
+		radial-gradient(
+			var(--gradient_spot3_w) var(--gradient_spot3_h) at left
+				var(--gradient_spot3_x) top var(--gradient_spot3_y),
+			var(--gradient_spot3_color),
+			transparent
+		),
+		radial-gradient(
+			var(--gradient_spot4_w) var(--gradient_spot4_h) at left
+				var(--gradient_spot4_x) top var(--gradient_spot4_y),
+			var(--gradient_spot4_color),
+			transparent
+		);
+	background-position: center;
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	z-index: -1;
 }
 
 #app-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  color: #6D213C;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	color: #6d213c;
 }
 
 /* PINK & YELLOW WAVE TOP*/
-.custom-shape-divider-bottom-1710142400, .custom-shape-divider-bottom-1710142400-B {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;  
+.custom-shape-divider-bottom-1710142400,
+.custom-shape-divider-bottom-1710142400-B {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
 }
 
-.custom-shape-divider-bottom-1710142400 svg, .custom-shape-divider-bottom-1710142400-B svg {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: auto; 
+.custom-shape-divider-bottom-1710142400 svg,
+.custom-shape-divider-bottom-1710142400-B svg {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 .custom-shape-divider-bottom-1710142400 .shape-fill {
-  fill: #F8B7B7;
+	fill: #f8b7b7;
 }
 
 .custom-shape-divider-bottom-1710142400-B .shape-fill-B {
-  fill: #f8efb8;
+	fill: #f8efb8;
 }
 
 #non-nav-content {
-  overflow-y: auto;
-  flex: 1;
-  width: 100%;
-  max-height: calc(100vh - 81px);
+	overflow-y: auto;
+	flex: 1;
+	width: 100%;
+	max-height: calc(100vh - 81px);
 }

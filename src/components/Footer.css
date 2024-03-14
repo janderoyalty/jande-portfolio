@@ -1,14 +1,14 @@
 #social-icons-container {
-    display: flex;
+	display: flex;
 }
 
-a{
-    text-decoration: none;
-    color: darkturquoise;
+a {
+	text-decoration: none;
+	color: darkturquoise;
 }
 
 #my-footer {
-    /* background-color: rgba(31, 31, 31, 0.1); */
-    padding: 1% 2%;
-    background-color: rgba(248,239,184, 1);
+	/* background-color: rgba(31, 31, 31, 0.1); */
+	padding: 1% 2%;
+	background-color: rgba(248, 239, 184, 1);
 }
