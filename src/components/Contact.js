@@ -1,12 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 
 import JandeFro from "../images/Jande Royalty afro photo with pink background.png";
-import { AiOutlineMail, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import {
+  AiOutlineMail,
+  AiFillLinkedin,
+  AiFillGithub,
+  AiFillCopy,
+  AiFillCheckCircle,
+} from "react-icons/ai";
 
 import { Row, Col, Image } from "react-bootstrap";
 
 const Contact = () => {
+  const email_text = "janderoyalty@gmail.com";
+  const [copied, setCopied] = useState(false);
+  const copy = async () => {
+    await navigator.clipboard.writeText(email_text);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 1000);
+  };
+
   return (
     <div className="content" id="my-contact">
       <Row className="content" id="home">
@@ -27,9 +41,20 @@ const Contact = () => {
                 <a
                   href="mailto: janderoyalty@gmail.com"
                   className="links my-contact--links"
+                  title="send me an email me"
                 >
-                  janderoyalty@gmail.com
+                  {email_text}
                 </a>
+                {copied ? (
+                  <AiFillCheckCircle size="25px" color="green" />
+                ) : (
+                  <AiFillCopy
+                    size="25px"
+                    onClick={copy}
+                    color="#FC36A9"
+                    title="copy email address"
+                  />
+                )}
               </Col>
               <Col>
                 <AiFillLinkedin size="50px" />

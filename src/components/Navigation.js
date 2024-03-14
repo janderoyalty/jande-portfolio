@@ -7,20 +7,6 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import logo from "../images/Jande_Royalty_logo.png";
 
 const Navigation = () => {
-  // const [navTransparency, setNavTransparency] = useState("navi-bar");
-
-  // useEffect(() => {
-  //   if (typeof window !== "undefined") {
-  //     console.log(typeof window);
-  //     window.addEventListener("scroll", () =>
-  //       setNavTransparency("navi-bar--scroll")
-  //     );
-  //   } else if (typeof window !== "object") {
-  //     console.log(typeof window);
-  //     window.addEventListener("scroll", () => setNavTransparency("navi-ba"));
-  //   }
-  // }, []);
-
   return (
     <>
       <Navbar
