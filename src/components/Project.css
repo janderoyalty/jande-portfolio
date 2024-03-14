@@ -1,8 +1,8 @@
 #my-works {
 	display: flex;
 	background-color: #f8b7b7;
-	padding-bottom: 75px;
-	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+	padding-bottom: 4.6rem;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
 }
 
 #my-works-left {
@@ -36,6 +36,10 @@
 		align-content: center;
 		width: 100%;
 	}
+
+	#my-works {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92%);
+	}
 }
 
 #my-works--text-box--entry {
@@ -46,7 +50,7 @@
 }
 
 #my-works-right {
-	padding: 5% 10% 5% 5%;
+	padding: 2rem 5rem 2rem 3rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

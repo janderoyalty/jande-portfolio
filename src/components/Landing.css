@@ -1,47 +1,49 @@
 #landing {
-    display: flex;
+	display: flex;
+	/* height: 82vh; */
+	align-items: center;
+    margin-bottom: 5rem;
 }
 
 #landing--left {
-    padding: 5rem;
+	padding: 0 5rem;
 }
 
 #landing--left--top {
-    width: 100%;
+	width: 100%;
 }
 
 #landing--left--top--name {
-    color: #6D213C;
-    font-size: 4rem;
-    font-weight:bolder;
-    text-transform: uppercase;
-    text-align: left;
+	color: #6d213c;
+	font-size: 4rem;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-align: left;
 }
 
 #landing--left--top--pronounciation {
-    color: #6D213C;
-    font-size: 2rem;
-    font-weight:bolder;
-    text-align: left;
+	color: #6d213c;
+	font-size: 2rem;
+	font-weight: bolder;
+	text-align: left;
 }
 
 #landing--left--bottom {
-    color: #6D213C;
-    font-size: 3rem;
-    font-weight:bolder;
-    text-transform: uppercase;
-    padding: 50px 0 0 20px;
-    text-align: left;
+	color: #6d213c;
+	font-size: 3rem;
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding: 50px 0 0 20px;
+	text-align: left;
 }
-
 
 #landing--right {
-    padding: 2rem;
-    justify-items: center;
-    align-self: center;
+	padding: 2rem;
+	justify-items: center;
+	align-self: center;
 }
 
-#landing--jande-image { 
-    display: flex;
-    width: 100%;
+#landing--jande-image {
+	display: flex;
+	width: 100%;
 }
