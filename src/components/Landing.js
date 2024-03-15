@@ -11,6 +11,7 @@ const Landing = () => {
 			<Row className="content" id="landing-container">
 				<Col
 					className="landing--left"
+					xs={{ span: 12, order: 2 }}
 					sm={{ span: 12, order: 2 }}
 					md={{ span: 12, order: 2 }}
 					lg={{ span: 6, order: 1 }}
@@ -30,6 +31,7 @@ const Landing = () => {
 				</Col>
 				<Col
 					className="landing--right"
+					xs={{ span: 12, order: 1 }}
 					sm={{ span: 12, order: 1 }}
 					md={{ span: 12, order: 1 }}
 					lg={{ span: 6, order: 2 }}
