@@ -70,7 +70,7 @@ function App() {
 						Please view this app on a larger screen for a better experience.
 						<br />
 						<br />
-						For best experience please view on an 13" screen or larger.
+						For the best experience, please view it on a 13" screen or larger.
 					</h2>
 					<button onClick={() => setShowModal(false)}>Close</button>
 				</div>
