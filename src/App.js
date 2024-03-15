@@ -47,39 +47,34 @@ function App() {
 					{/* PINK WAVE TOP */}
 					<Wave
 						shapeCase="custom-shape-divider-bottom-1710401380"
-						shapeFill="shape-fill-pink" // PINK WAVE
+						shapeFill="shape-fill-pink"
 					></Wave>
-
 					<Project></Project>
-
 					<Skills></Skills>
 					{/* YELLOW WAVE TOP */}
 					<Wave
 						shapeCase="custom-shape-divider-bottom-1710401643"
-						shapeFill="shape-fill-yellow" // YELLOW WAVE
+						shapeFill="shape-fill-yellow"
 					></Wave>
-
 					<Contact></Contact>
 					<Footer></Footer>
 				</div>
 			</div>
-			<div id="modal-parent">
-				<Modal
-					show={showModal}
-					contentLabel="Screen Size Message"
-					onHide={() => setShowModal(false)}
-				>
-					<div className="modal-content">
-						<h2>
-							Please view this app on a larger screen for a better experience.
-							<br />
-							<br />
-							For best experience please view on an 13" screen or larger.
-						</h2>
-						<button onClick={() => setShowModal(false)}>Close</button>
-					</div>
-				</Modal>
-			</div>
+			<Modal
+				show={showModal}
+				contentLabel="Screen Size Message"
+				onHide={() => setShowModal(false)}
+			>
+				<div className="modal-content">
+					<h2>
+						Please view this app on a larger screen for a better experience.
+						<br />
+						<br />
+						For best experience please view on an 13" screen or larger.
+					</h2>
+					<button onClick={() => setShowModal(false)}>Close</button>
+				</div>
+			</Modal>
 		</div>
 	);
 }

@@ -116,11 +116,6 @@ body {
 }
 
 /* Modal Styles */
-#modal-parent {
-	display: flex;
-	justify-content: flex-end;
-	background-color: aqua;
-}
 .modal-content {
 	background-color: #f8efb8 !important;
 	padding: 20px;
