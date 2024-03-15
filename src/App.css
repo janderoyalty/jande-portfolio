@@ -114,3 +114,34 @@ body {
 .custom-shape-divider-bottom-1710401643 .shape-fill-yellow {
 	fill: #f8efb8;
 }
+
+/* Modal Styles */
+.modal-content {
+	background-color: #f8efb8 !important;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.modal-content > h2 {
+	color: #6d213c;
+	font-size: 1.5rem;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.modal-content h2 {
+	margin-top: 0;
+}
+
+.modal-content button {
+	background-color: #fc36a9;
+	color: white;
+	/* border: none; */
+	padding: 0.5rem 1rem;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.modal-content button:hover {
+	background-color: #e90389;
+}
