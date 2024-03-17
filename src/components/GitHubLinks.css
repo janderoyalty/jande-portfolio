@@ -1,0 +1,6 @@
+.technologies--github {
+	display: flex;
+	justify-content: left;
+	align-items: stretch;
+	font-size: 1.5rem;
+}
