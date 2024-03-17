@@ -4,6 +4,7 @@ import "./Projects.css";
 // Images
 import MoratiaGamesMockUp from "../images/Computer Icon - Moratia Games.png";
 import WeatherReportMockUp from "../images/Computer Icon - Weather Report.png";
+import InspoBoardMockUp from "../images/Computer Icon - Inspo Board.png";
 
 import ProjectItem from "./ProjectItem";
 
@@ -26,6 +27,15 @@ Despite encountering challenges with CSS styling and adapting the code to handle
 
 I am committed to ongoing maintenance and support for the app, with plans to introduce exciting features to enrich the user experience further. A mobile-friendly version is also in the works and will be available soon. Overall, I am confident in the success of my project and look forward to its continued growth and development.
 		`,
+		`This full-stack project aimed to create a digital platform mirroring the uplifting ambiance of an office inspiration board. Users could create and select boards, view associated cards, and interact by giving a "+1" to agreeable messages. 
+
+The project involved collaboration among a three-person team, each member contributing various aspects. While I primarily focused on frontend development, including creating the wireframing and mock-up creation and implementing the CSS code, I also played a crucial role in backend development.
+
+I wrote Board routes in the backend, collaborated with team members who handled Card routes, and ensured seamless integration of frontend and backend layers. Additionally, I led the database setup alongside my team members and contributed to creating conventional RESTful CRUD routes for model interactions. 
+
+The group followed Agile methodologies using Trello to track our progress and conducted tests to ensure the endpoints of the API functioned appropriately. The project focused on establishing a seamless interaction between frontend and backend layers. 
+
+I currently oversee the deployment and maintenance of the project, ensuring its continued functionality.`,
 	];
 	return (
 		<div id="my-works">
@@ -77,10 +87,44 @@ I am committed to ongoing maintenance and support for the app, with plans to int
 								projectEnd: "FE",
 							},
 							{
-								projectName: "project_1",
+								projectName: "project_2",
 								gitHubLink:
 									"https://github.com/janderoyalty/weather-report-proxy-server",
 								gitHubLinkTitle: "Weather Report Frontend",
+								projectEnd: "BE",
+							},
+						]}
+					></ProjectItem>
+				</Carousel.Item>
+				{/* ***************************************ITEM 3*************************************** */}
+				<Carousel.Item>
+					<ProjectItem
+						website="https://inspo-board-fe.onrender.com/"
+						imageLink={InspoBoardMockUp}
+						imageAlt="Inspo Board webpage mock up on a laptop screen"
+						projectName="Inspo Board"
+						faLinkTitle="Inspo Board Website"
+						projectDecription={
+							<pre className="body-text">{projectDescriptions[2]}</pre>
+						}
+						technologies={[
+							"Postgres",
+							"Python",
+							"React JS",
+							"Javascript",
+							"CSS",
+						]}
+						githubLinks={[
+							{
+								projectName: "project_1",
+								gitHubLink: "https://github.com/janderoyalty/inspo-board-FE",
+								gitHubLinkTitle: "Inspo Board Frontend",
+								projectEnd: "FE",
+							},
+							{
+								projectName: "project_2",
+								gitHubLink: "https://github.com/janderoyalty/inspo-board-BE",
+								gitHubLinkTitle: "Inspo Board Backend",
 								projectEnd: "BE",
 							},
 						]}

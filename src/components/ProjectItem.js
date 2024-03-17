@@ -53,7 +53,7 @@ const ProjectItem = ({
 							/>
 							<Row className="sub-header-text">view project</Row>
 						</a>
-						<Row className="body-text">{projectDecription}</Row>
+						<Row className="body-text" numberOfLines={1}>{projectDecription}</Row>
 						<Row className="technologies">
 							<Row>Technologies</Row>
 							<TechnologiesList technologies={technologies} />
