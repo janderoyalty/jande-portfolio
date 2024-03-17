@@ -39,7 +39,7 @@ I currently oversee the deployment and maintenance of the project, ensuring its 
 	];
 	return (
 		<div id="my-works">
-			<Carousel variant="dark" interval="10000">
+			<Carousel variant="dark" interval="10000" touch="True">
 				{/* ITEM 1: MORATIA GAMES */}
 				<Carousel.Item>
 					<ProjectItem

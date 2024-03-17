@@ -6,9 +6,11 @@
 }
 
 #my-works-left {
-	padding: 0 2rem 0 5rem;
 	display: flex;
 	align-items: center;
+	padding: 0 2rem 5rem 5rem;
+	top: 0;
+	height: 100vh;
 }
 
 #my-works-image {
@@ -17,20 +19,8 @@
 	padding-right: 3rem;
 }
 
-@media screen and (max-width: 992px) {
-	#my-works-left {
-		width: 50%;
-		display: flex;
-		justify-items: center;
-		justify-content: center;
-		align-self: center;
-		align-items: center;
-		text-align: center;
-	}
-
-	#my-works {
-		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92%);
-	}
+#my-works {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92%);
 }
 
 #my-works--text-box--entry {
@@ -145,6 +135,7 @@
 	width: 25px;
 	height: 25px;
 	border-radius: 100%;
+	background-color: #e90389 !important;
 }
 
 .carousel-indicators {
@@ -178,6 +169,21 @@
 		justify-items: center;
 	}
 }
+
+@media screen and (max-width: 992px) {
+	#my-works-left {
+		width: 50%;
+		display: flex;
+		justify-items: center;
+		justify-content: center;
+		align-self: center;
+		align-items: center;
+		text-align: center;
+		height: auto;
+		padding: 3rem;
+	}
+}
+
 @media screen and (max-width: 600px) {
 	#my-works-image {
 		width: 25rem;
@@ -185,6 +191,3 @@
 		justify-items: center;
 	}
 }
-
-/* .github-link-icon {
-} */
