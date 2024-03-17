@@ -3,7 +3,7 @@ import "./App.css";
 
 import Navigation from "./components/Navigation";
 import Skills from "./components/Skills";
-import Project from "./components/Project";
+import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Wave from "./components/Wave";
@@ -49,7 +49,7 @@ function App() {
 						shapeCase="custom-shape-divider-bottom-1710401380"
 						shapeFill="shape-fill-pink"
 					></Wave>
-					<Project></Project>
+					<Projects></Projects>
 					<Skills></Skills>
 					{/* YELLOW WAVE TOP */}
 					<Wave
