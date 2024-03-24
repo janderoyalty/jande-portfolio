@@ -136,10 +136,6 @@
 	height: 25px;
 	border-radius: 100%;
 	background-color: #e90389 !important;
-}
-
-.carousel-indicators {
-	top: -0.5em;
 	margin-bottom: 50px;
 }
 
@@ -190,4 +186,10 @@
 		display: flex;
 		justify-items: center;
 	}
+}
+
+.carousel-indicators {
+	z-index: 2;
+	height: 1rem;
+	top: -0.5em;
 }
